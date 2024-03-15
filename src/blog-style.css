@@ -53,11 +53,15 @@ h3,
 h4,
 p,
 figure,
-blockquote,
 dl,
 dd {
   margin: 0;
   font-family: 'Libre Baskerville', sans-serif;
+}
+
+blockquote {
+  margin: 0 0 0 30vmin;
+  color: rgb(158, 26, 0);
 }
 
 p {
@@ -157,10 +161,12 @@ strong {
 section,
 .section {
   padding: min(10vh, 10em) 0;
-  padding-top: 40vmin;
+  /* padding-top: 40vmin; */
 }
 
-
+.recent {
+  padding-top: 250px ;
+}
 
 /* //////////////////////
   Utility Classes
@@ -170,6 +176,7 @@ section,
    and add margin to the top for proper
    spacing */
 
+   
 .flow>*:where(:not(:first-child)) {
   margin-top: var(--flow-spacer, 1em);
 }
@@ -187,6 +194,8 @@ section,
 .container--narrow a{
   line-break: anywhere;
 }
+
+
 
 
 
@@ -662,7 +671,7 @@ section,
   /////////////////////// */
 
 .hero {
-  padding-top: 40vmin;
+  padding-top: 250px;
 }
 
 .hero>div {
@@ -682,6 +691,15 @@ section,
 @media (min-width: 45em) {
   .hero>div {
     grid-auto-flow: column;
+  }
+}
+
+@media (max-width:500px) {
+  .hero__image{
+    display: none;
+  }
+  .hero {
+    /* padding-top: 45vmin; */
   }
 }
 
@@ -845,32 +863,6 @@ section,
   
   
   
-  
-  
-  
-  /* .overlay-article {
-    border: solid 10px black;
-    position: absolute;
-    height: 850px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-  }
-  
-  .overlay-article h1 {
-    margin: 0 0 60px 60px;
-    color: white;
-    text-align: left;
-    line-break: anywhere;
-  }
-  
-  .overlay-article p {
-    margin: 0 0 60px 60px;
-    color: rgb(186, 4, 4);
-    font-size: 22px;
-  } */
 
 
 

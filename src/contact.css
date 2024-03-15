@@ -637,7 +637,18 @@ input:hover {
 }
 
 
+@media (max-width: 550px) {
+    form {
+       display: block; 
+    }
+    .fieldset1, .fieldset2, .fieldset3, .fieldset4, .fieldset-button, .button-forms {
+        width: 100%;
+    }
+    input {
+        width: 100%;
+    }
 
+}
 
 
 
