@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-server-browsersync": "^1.0.2",
-    "nunjucks": "^3.2.4"
+    "nunjucks": "^3.2.4",
+    "toml": "^3.0.0"
   }
 }

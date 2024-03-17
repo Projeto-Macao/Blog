@@ -2109,3 +2109,69 @@ body {
 .rights-element a:hover {
     color: red;
 }
+
+.nf-container {
+   /* border: solid 10px red; */
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(225, 225, 225);
+}
+
+.nf-elements {
+    /* border: solid 10px darkgreen; */
+    height: 85%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.nf-photo {
+    /* border: solid 10px orange; */
+    width: 50vh;
+    height: 70%;
+}
+
+.nf-photo img {
+    height: 100%;
+    width: 100%;
+}
+
+.nf-photo p {
+    background-color: grey;
+    width: max-content;
+    padding: 12px;
+    border-radius: 0 12px 12px 12px;
+    float: right;
+}
+
+.nf-text {
+    /* border: solid 10px black; */
+    height: 30%;
+    width: 60%;
+}
+
+.err-title{
+    text-align: center;
+    color: rgb(119, 119, 119);
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.err-text {
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    padding-top: 40px;
+}
+
+
+.err-text a {
+    color: red;
+    font-weight: bold;
+}
