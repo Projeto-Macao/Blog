@@ -698,9 +698,6 @@ section,
   .hero__image{
     display: none;
   }
-  .hero {
-    /* padding-top: 45vmin; */
-  }
 }
 
 .featured-articles {
