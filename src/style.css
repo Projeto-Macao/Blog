@@ -2141,13 +2141,6 @@ body {
     width: 100%;
 }
 
-.nf-photo p {
-    background-color: grey;
-    width: max-content;
-    padding: 12px;
-    border-radius: 0 12px 12px 12px;
-    float: right;
-}
 
 .nf-text {
     /* border: solid 10px black; */
@@ -2164,7 +2157,7 @@ body {
 
 .err-text {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 3.2vmin;
     text-decoration: none;
     color: black;
     padding-top: 40px;
