@@ -81,7 +81,7 @@ body {
 .logo-element {
     /* border: solid 10px fuchsia; */
     height: 80%;
-    width: max-content;
+    width: 100px;
 }
 
 .logo-element img {
