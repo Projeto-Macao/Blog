@@ -1,36 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Macaó</title>
-    <meta property="og:site_name" content="dsdnadkmdkam">
-    <meta name="description" content=" Um grupo horizontal de estudantes agentes da mudança social.">
-    <link rel="canonical" href="projetomacao.com.br">
-    <meta name="author" content="Rafael Rangel Rodrigues">
-    <meta name="robot" content="index">
-    <meta property="og:title" content="Projeto Macaó" />
-    <meta property="og:description" content="Um grupo horizontal de estudantes agentes da mudança social.">
-    <meta property="og:url" content="https://projetomacao.com.br/" />
-    <meta property="og:image" content="assets/blog/arara-p.png" />
-    <meta property="og:type" content="website" />
-    <link rel="stylesheet" href="/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <link rel="icon" type="image/x-icon" href="assets/blog/logo-macao-12.png">
-</head>
-
-<body>
-    {% include 'header-index.njk' %}
-    <div class="container-index">
-        <main>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Macaó</title>
+        <meta property="og:site_name" content="dsdnadkmdkam">
+        <meta name="description" content=" Um grupo horizontal de estudantes agentes da mudança social.">
+        <link rel="canonical" href="projetomacao.com.br">
+        <meta name="author" content="Rafael Rangel Rodrigues">
+        <meta name="robot" content="index">
+        <meta property="og:title" content="Projeto Macaó"/>
+        <meta property="og:description" content="Um grupo horizontal de estudantes agentes da mudança social.">
+        <meta property="og:url" content="https://projetomacao.com.br/"/>
+        <meta property="og:image" content="assets/blog/arara-p.png"/>
+        <meta property="og:type" content="website"/>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <link rel="icon" type="image/x-icon" href="assets/blog/logo-macao-12.png">
+    </head>
+    <body>
+        {% include 'header-index.njk' %}
+        <div class="container-index">
+            <main>
                 <div class="projeto-macao">
                     PROJETO
                     <span>
@@ -53,8 +51,7 @@
                                     </p>
                                 </div>
                                 <div class="subtitle-info-object">
-                                    <p class="subtitle-info">Uma Cooperativa Júnior que pretende reduzir a lacuna entre a
-                                        teoria e a prática através de um
+                                    <p class="subtitle-info">Uma Cooperativa Júnior que pretende reduzir a lacuna entre a teoria e a prática através de um
                                         ambiente horizontal.</p>
                                 </div>
                             </div>
@@ -71,103 +68,129 @@
                             <div class="grid-blog-button">
                                 <a href="/blog-index">Blog</a>
                                 <a href="/blog-index">
-                                    <div class="blog-button-style">➜</div>
+                                    <div class="blog-button-style">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path
+                                                fill="#ffffff"
+                                                d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7
+                                                    0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/> </svg>
+                                    </div>
                                 </a>
                             </div>
                         </div>
                         <div class="grid-blog">
                             {% for post in collections.featured | reverse%}
-                            {% if loop.index0 < 4 %} {% include 'blog-snippet-elements.njk' %} {% endif%} {% endfor %}
-                                </div>
-                        </div>
-                   
-                </div>
-                <div class="team-highlight">
-                    <p>Conheça a Equipe</p>
-                </div>
-                <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="swiper-photo">
-                                <img src="/assets/blog/kally-pedro-max.png" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-photo">
-                                <img src="/assets/blog/araracanga.png" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-photo">
-                                <img src="/assets/blog/foucault-art.png" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-photo">
-                                <img src="/assets/blog/todes-roda.png" alt="">
+                                {% if loop.index0 < 4 %}
+                                    {% include 'blog-snippet-elements.njk' %}
+                                    {% endif%}
+                                {% endfor %}
                             </div>
                         </div>
                     </div>
-                    <!-- swiper pagination -->
-                    <div class="swiper-pagination"></div>
-                    <!-- navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                </div>
-                <div id="about" class="about-us">
-                    <div class="about-title">Sobre Nós
-                        <div class="rainbow-about">
-                            <div class="red"></div>
-                            <div class="yellow"></div>
-                            <div class="green"></div>
-                            <div class="blue"></div>
-                        </div>
-                    </div>
-                    <div class="about-info">
-                        <div class="about-text">
-                            <div class="title-macao-about">Macaó</div>
-                            <p>Bem-vindo ao Projeto Macaó, uma iniciativa vibrante e inovadora no cenário acadêmico das
-                                Ciências Sociais na UFSCAR.
-                                Somos um grupo horizontal que busca transcender os limites tradicionais da academia,
-                                desafiando e inspirando estudantes
-                                a se tornarem agentes de mudança social.</p>
-                            <p>
-                            <div class="title-about-2"></div>
-                            </p>
-                            <p>
-                                No coração do Macaó está o compromisso com uma abordagem horizontal e participativa.
-                                Acreditamos na igualdade de voz, na
-                                colaboração e na diversidade de perspectivas. Nossa essência reflete os valores fundamentais
-                                das Ciências Sociais,
-                                buscando compreender e abordar as complexas dinâmicas que moldam nosso mundo.</p>
-                            <div class="info-rainbow">
-                                <a href="#">
-                                    <div class="info-button">
-                                        <div class="subtitle-about">Leia Nossa Carta</div>
-                                        <div class="button-rainbow">
-                                            &#10140;
-                                        </div>
-                                        <div class="main-rainbow-button">
-                                            <div class="red-info"></div>
-                                            <div class="yellow-info"></div>
-                                            <div class="green-info"></div>
-                                            <div class="blue-info"></div>
-                                        </div>
+                    <div class="grid-blog-lite">
+                        <div class="grid-top-lite">
+                            <div class="grid-title">
+                                Acompanhe o Pensamento das Ciências Sociais
+                            </div>
+                            <div class="grid-blog-button">
+                                <a href="/blog-index">Blog</a>
+                                <a href="/blog-index">
+                                    <div class="blog-button-style">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path
+                                                fill="#ffffff"
+                                                d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7
+                                                    0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/> </svg>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="about-photo">
-                            <img src="/assets/blog/araracanga.png" alt="">
+                        {% for post in collections.featured | reverse%}
+                            {% if loop.index0 < 4 %}
+                                {% include 'blog-snippet-lite.njk' %}
+                                {% endif%}
+                            {% endfor %}
                         </div>
-                    </div>
-                </div>
-                <div id="projects" class="projects-container">
-                    <div class="projects-child">
-                        <div class="projects-objects-title">
-                            <p>Últimos</p>
-                            </p>
-                            Projetos</p>
+                        <div class="team-highlight">
+                            <p>Conheça a Equipe</p>
+                        </div>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="swiper-photo">
+                                        <img src="/assets/blog/kally-pedro-max.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-photo">
+                                        <img src="/assets/blog/araracanga.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-photo">
+                                        <img src="/assets/blog/foucault-art.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-photo">
+                                        <img src="/assets/blog/todes-roda.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- swiper pagination -->
+                            <div class="swiper-pagination"></div>
+                            <!-- navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div id="about" class="about-us">
+                            <div class="about-title">Sobre Nós
+                                <div class="rainbow-about">
+                                    <div class="red"></div>
+                                    <div class="yellow"></div>
+                                    <div class="green"></div>
+                                    <div class="blue"></div>
+                                </div>
+                            </div>
+                            <div class="about-info">
+                                <div class="about-text">
+                                    <div class="title-macao-about">Macaó</div>
+                                    <p>Bem-vindo ao Projeto Macaó, uma iniciativa vibrante e inovadora no cenário acadêmico das Ciências Sociais na UFSCAR.
+                                        Somos um grupo horizontal que busca transcender os limites tradicionais da academia, desafiando e inspirando estudantes
+                                        a se tornarem agentes de mudança social.</p>
+                                    <p>
+                                        <div class="title-about-2"></div>
+                                    </p>
+                                    <p>
+                                        No coração do Macaó está o compromisso com uma abordagem horizontal e participativa. Acreditamos na igualdade de voz, na
+                                        colaboração e na diversidade de perspectivas. Nossa essência reflete os valores fundamentais das Ciências Sociais,
+                                        buscando compreender e abordar as complexas dinâmicas que moldam nosso mundo.</p>
+                                    <div class="info-rainbow">
+                                        <a href="#">
+                                            <div class="info-button">
+                                                <div class="subtitle-about">Leia Nossa Carta</div>
+                                                <div class="button-rainbow">
+                                                    &#10140;
+                                                </div>
+                                                <div class="main-rainbow-button">
+                                                    <div class="red-info"></div>
+                                                    <div class="yellow-info"></div>
+                                                    <div class="green-info"></div>
+                                                    <div class="blue-info"></div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="about-photo">
+                                    <img src="/assets/blog/araracanga.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="projects" class="projects-container">
+                            <div class="projects-child">
+                                <div class="projects-objects-title">
+                                    <p>Últimos</p>
+                                </p>
+                                Projetos</p>
                             <div class="rainbow-projects">
                                 <div class="red"></div>
                                 <div class="yellow"></div>
@@ -237,8 +260,7 @@
                                     Pensamento Crítico
                                 </div>
                                 <div class="capacities-text-p">
-                                    Capacidade de analisar informações de forma objetiva, questionar preconceitos e examinar
-                                    diferentes perspectivas.
+                                    Capacidade de analisar informações de forma objetiva, questionar preconceitos e examinar diferentes perspectivas.
                                 </div>
                             </div>
                         </div>
@@ -277,8 +299,7 @@
                                     Adaptabilidade
                                 </div>
                                 <div class="capacities-text-p">
-                                    Capacidade de se adaptar a novos ambientes, métodos de pesquisa e mudanças nas questões
-                                    sociais.
+                                    Capacidade de se adaptar a novos ambientes, métodos de pesquisa e mudanças nas questões sociais.
                                 </div>
                             </div>
                         </div>
@@ -291,45 +312,42 @@
                                     Pesquisa
                                 </div>
                                 <div class="capacities-text-p">
-                                    Conduzindo pesquisas de forma ética, incluindo a formulação de perguntas de pesquisa, o
-                                    desenvolvimento de metodologias
+                                    Conduzindo pesquisas de forma ética, incluindo a formulação de perguntas de pesquisa, o desenvolvimento de metodologias
                                     e a interpretação de resultados.
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-        </main>
-        {% include 'footer.njk'%}
-        <div vw class="enabled">
-            <div vw-access-button class="active"></div>
-            <div vw-plugin-wrapper>
-                <div class="vw-plugin-top-wrapper"></div>
+            </main>
+            {% include 'footer.njk'%}
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                    <div class="vw-plugin-top-wrapper"></div>
+                </div>
             </div>
-        </div>
-        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-        <script>
-            new window.VLibras.Widget('https://vlibras.gov.br/app');
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script>
-            const swiper = new Swiper('.swiper', {
-
-                loop: true,
-                // Pagination
-                pagination: {
-                    el: '.swiper-pagination'
-                },
-                // Navigation arrows
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev'
-                },
-                keyboard: true,
-                mousewheel: false
-            });
-        </script>
-</body>
-</body>
-
+            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {
+                    loop: true,
+                    // Pagination
+                    pagination: {
+                        el: '.swiper-pagination'
+                    },
+                    // Navigation arrows
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev'
+                    },
+                    keyboard: true,
+                    mousewheel: false
+                });
+            </script>
+        </body>
+    </body>
 </html>
