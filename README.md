@@ -11,7 +11,6 @@ This repository contains the source code of the Macao website, a student coopera
 ## Repository Structure
 + /site: Contains the HTML and CSS files of the main Macao website.
 + /public: This is where the output of the entire site by the Eleventy generator will be located.
-+ /public: This is where the output of the entire site by the Eleventy generator will be located.
 + /src: Here you will find the source code of the blog, including Nunjucks templates, Markdown files for articles, and any Eleventy-related configuration.
 + /_includes: Here you will find the base template, header, footer, and page indexes of the website.
 + /assets: This directory contains static resources such as images, icons, and other files necessary for the functioning of the site.
