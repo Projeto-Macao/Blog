@@ -39,13 +39,13 @@ Entretanto, a posteriori, sucedeu-se o contato dos havaianos com os europeus em 
 
 ## **Do contato: As relações com os primeiros contatos com a  Europa.**
 
-### **Ascensão de Kamehameha** 
+### **Ascensão de Kamehameha**
 
 Uma figura importante nesse contexto de ruptura foi o guerreiro, diplomata e líder Kamehameha, que aproveitou-se da experiência e das novas armas e estratégias trazidas pelos europeus para conquistar os mokus e unificar o arquipélago do Havaí. Em 1810, o Havaí tornou-se então um reino unificado governado pelo rei Kamehameha I. A partir da unificação, o primeiro rei do Havaí promoveu negociações e acordos comerciais com a Europa e com os Estados Unidos. A economia das ilhas então deixou de ser baseada na agricultura de subsistência nas terras comunais, passando a seguir o modelo colonial de agricultura de exportação centrada na produção de açúcar.
 
 Kamehameha I ficou conhecido como “Kamehameha, o Grande” por conta de suas conquistas e seu grande impacto na realidade havaiana. Herdeiro do poder religioso do deus da guerra, sempre desejou dar continuidade às relações com os europeus, ao contrário de seus oponentes. Dessa forma, contou com a ajuda dos europeus para derrotar seus inimigos e unificar o território havaiano, iniciando em 1810 a dinastia Kamehameha, que se manteve até 1874. É durante seu governo que o Havaí passa por mudanças em sua estrutura social e econômica, se mantendo próximo aos brancos europeus e estadunidenses. 
 
-### **Imigrações no processo colonizatório** 
+### **Imigrações no processo colonizatório**
 
 Um aspecto importante desse período foi a imigração portuguesa para o Havaí. A vinda de portugueses, principalmente das ilhas de Açores e Madeira, trouxe alguns elementos culturais que influenciaram muito a cultura havaiana. Uma das heranças desse contato foi a criação do instrumento mais característico do Havaí, o ukulele, a partir da braguinha portuguesa. Além do instrumento que é quase um símbolo havaiano, alguns pratos típicos e feriados também foram passados dos portugueses para os havaianos.
 
@@ -93,7 +93,7 @@ Sendo assim, no eixo desse desenvolvimento está o conceito de soberania popular
 
 Portanto, esses conceitos de nação, povo e estado-nação têm relevância direta sobre a busca dos nativos havaianos por reconhecimento e soberania. A busca pelo reconhecimento federal é uma expressão da aspiração por autonomia e representação legítima, e é moldada por essas dinâmicas políticas e conceituais mais amplas, e preservar culturas nativas, fortalecendo a identidade de um povo e sua conexão com suas raízes, formando uma estrutura política que ajudará a garantir que a cultura nativa havaiana não apenas sobreviva , mas que também seja próspera em seus direitos e história havaiana tão atacada.
 
-### **Da busca por soberania** 
+### **Da busca por soberania**
 
 A história do Havaí é repleta de simbolismos profundos que refletem a luta contínua pela soberania e autodeterminação do povo havaiano aos ataques. Entre esses símbolos, destaca-se a bandeira invertida do Havaí, que representa a aspiração por uma governança independente e o desejo de recuperar uma herança cultural profundamente arraigada, seja pelo reconhecimento ou pelos movimentos de soberania havaiana, pela independência.
 
@@ -101,35 +101,7 @@ Então, dentro do movimento de soberania havaiana, surgem perspectivas divergent
 
 Em síntese, a análise do Havaí à luz dos conceitos dos políticos modernos revela uma complexa dinâmica política e cultural. A partir das noções de Estado-Nação referenciadas no texto, o território emerge do povo, transforma-o em uma nação politicamente organizada e com vontades a serem representadas, inserem-se no debate os nativos havaianos por reconhecimento e soberania idealizada por essa dinâmica política, os quais os fins levarão a preservação da cultura, identidade e as vontades de Lili'uokalani contra a Constituição da Baioneta, para assim a possibilidade de estruturar uma governança que equilibre os poderes entre as partes interessadas, ou seja, incluindo os povos originários. À medida que resgatam e preservam sua história e identidade cultural simbolizada por suas tradições, história, reflete-se a busca contínua por reconhecimento ou independência daquilo que é chamado de Ocidente.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Referências Bibliográficas 
-
-
 
 ALEXANDER, William De Witt. Kalakaua's Reign: A Sketch of Hawaiian History. Harvard College Library Collection, 1941. Disponível em: <https://archive.org/details/kalakauasreigna00alexgoog/page/n4/mode/2up>.
 
@@ -162,13 +134,3 @@ SAHLINS, M. Ilhas de História. Edição Zahar, Rio de Janeiro, 1990.
 The Struggle For Hawaiian Sovereignty - Introduction. 3 de maio de 2023, <https://www.culturalsurvival.org/publications/cultural-survival-quarterly/struggle-hawaiian-sovereignty-introduction>
 
 TILLY, Charles. Coerção, capital e estados europeus 990-1992. São Paulo: Edusp, 1996.
-
-
-
-
-
-Lista de Ilustrações
-
-Fig. 1         Mapa gráfico do arquipélago de havaiano
-
-Fig. 2         Bandeira invertida do movimento por soberania havaiana
